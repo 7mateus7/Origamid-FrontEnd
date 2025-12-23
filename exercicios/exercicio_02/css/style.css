@@ -1,0 +1,39 @@
+body {
+  margin: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.container-black {
+  background-color: #111;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.destaque {
+  color: #febe01;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+}
+
+p {
+  color: #b2b2b2;
+  font-size: large;
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: #febe01;
+  color: 332200(0, 0, 0);
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+}

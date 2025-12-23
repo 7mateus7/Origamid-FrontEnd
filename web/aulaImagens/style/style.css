@@ -1,0 +1,4 @@
+img {
+  max-width: 100%; /*Garante que a imagem não fique maior que o elemento pai*/
+  display: block;
+}

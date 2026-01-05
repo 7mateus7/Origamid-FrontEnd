@@ -1,0 +1,66 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background: #caf;
+  color: #217;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #adf;
+  color: #147;
+}
+
+a:focus {
+  background: #cfa;
+  color: #371;
+}
+
+a:active {
+  color: #ffa;
+  color: 761;
+}
+
+/*a:visited {
+  background: #fda;
+  color: #731;
+}*/
+
+.lista-1 li {
+  background: #ffa; /*Todos os elementos da lista*/
+}
+
+.lista-1 li:first-child {
+  background: #adf; /*Somente o primeiro elemento da lista*/
+}
+
+.lista-1 li:last-child {
+  background: #adf; /*Somente o primeiro elemento da lista*/
+}
+
+.lista-1 li:nth-child(2) {
+  background: #cfa;
+}
+
+.lista-2 li:nth-child(even) {
+  background: #cfa; /*Seleciona todos os elementos pares*/
+}
+
+.lista-2 li:nth-child(odd) {
+  background: rgba(204, 255, 170, 0.61); /*Seleciona todos os elementos pares*/
+}
+
+/* .lista-2 li:nth-child(3n) {
+  background: rgba(95, 209, 18, 0.726); /*Seleciona de 3 em 3 elementos
+}*/
+
+.lista-3 li:not(:first-child) {
+  background: #caf;
+}
+
+section h2:not(.contato) {
+  text-decoration: underline;
+}

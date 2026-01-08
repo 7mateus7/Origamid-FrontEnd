@@ -65,12 +65,13 @@ img {
 }
 
 .sobre-mim-titulo {
-  width: 300px;
+  width: 400px;
   place-self: center;
 }
 
 .texto-sobre-mim {
   place-self: center;
+  font-size: 1.1rem;
 }
 
 .imagem-perfil {
@@ -80,4 +81,61 @@ img {
   height: 350px;
   border-radius: 15%;
   box-shadow: 5px 1px 10px rgb(65, 64, 64);
+}
+
+.experiencia-titulo {
+  text-transform: uppercase;
+}
+
+.list-experiencias {
+  list-style: none;
+}
+
+.item-experiencia {
+  background: #abc2fc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px 0px;
+  box-shadow: 3px 1px 15px rgb(65, 64, 64);
+}
+
+.nome-vaga {
+  text-decoration: underline;
+  color: #4970ed;
+  font-size: 1rem;
+}
+
+.experiencia-empresa-time {
+  font-size: 1rem;
+  color: #6688f2;
+}
+
+.box-projetos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.titulo-projetos {
+  text-transform: uppercase;
+}
+
+.titulo-projetos {
+  grid-column: 1/-1;
+}
+
+.box-projetos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item-projeto:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+.rodape {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
 }

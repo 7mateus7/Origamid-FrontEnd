@@ -32,7 +32,7 @@ Ex.: <a href="/produto/bicicletas.html"></a>
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -43,7 +43,7 @@ Ex.: <a href="/produto/bicicletas.html"></a>
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -55,7 +55,7 @@ Ex.: <a href="/produto/bicicletas.html"></a>
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -67,9 +67,9 @@ EX.:
 
 .grid {
 
-&nbsp; display: grid;
+  display: grid;
 
-&nbsp; grid-template-columns: 220px 220px;
+  grid-template-columns: 220px 220px;
 
 }
 
@@ -79,33 +79,33 @@ grid-template-columns: auto auto; -> Ao definir os atributos em 'auto' os elemen
 
 
 
-* JUSTIFY-CONTENT: 
+* JUSTIFY-CONTENT:
 
-&nbsp;	- CENTER: Alinha o grid ao centro da tela.
+ 	- CENTER: Alinha o grid ao centro da tela.
 
-&nbsp;	- START: Alinha o grid a esquerda da tela.
+ 	- START: Alinha o grid a esquerda da tela.
 
-&nbsp;	- END: Alinha o grid a direita da tela.
+ 	- END: Alinha o grid a direita da tela.
 
-&nbsp;	- SPACE-BETWEEN: Adiciona um espaçamento entre os itens
+ 	- SPACE-BETWEEN: Adiciona um espaçamento entre os itens
 
-&nbsp;	- SPACE-ARROUND: Tenta adicionar um espaçamento no início, meio e fim das colunas.
+ 	- SPACE-ARROUND: Tenta adicionar um espaçamento no início, meio e fim das colunas.
 
-&nbsp;	- SPACE-EVENLY: Tenta adicionar um espaçamento mais igual entre os cantos e o meio das colunas.
+ 	- SPACE-EVENLY: Tenta adicionar um espaçamento mais igual entre os cantos e o meio das colunas.
 
 
 
 * ALIGN-CONTENT: Realiza o alinhamento vertical do grid. (Depende da altura do grid. 'HEIGHT')
 
-&nbsp;	- END: Alinha o grid ao final.
+ 	- END: Alinha o grid ao final.
 
-&nbsp;	- CENTER: Alinha o grid ao centro.
+ 	- CENTER: Alinha o grid ao centro.
 
-&nbsp;	- START: Alinha o conteúdo ao início.
+ 	- START: Alinha o conteúdo ao início.
 
-&nbsp;	- SPACE-ARROUND: Tenta adicionar um espaçamento no início, meio e fim das colunas.
+ 	- SPACE-ARROUND: Tenta adicionar um espaçamento no início, meio e fim das colunas.
 
-&nbsp;	- SPACE-EVENLY: Tenta adicionar um espaçamento mais igual entre os cantos e o meio das colunas.
+ 	- SPACE-EVENLY: Tenta adicionar um espaçamento mais igual entre os cantos e o meio das colunas.
 
 
 
@@ -117,13 +117,13 @@ grid-template-columns: auto auto; -> Ao definir os atributos em 'auto' os elemen
 
 ##### **COMO REALIZAR O ALINHAMENTO DOS ITENS DOS GRUPOS:**
 
-* ALIGN-ITEMS: 
+* ALIGN-ITEMS:
 
-&nbsp;	- CENTER: Realiza o alinhamento dos itens ao centro da linha em comparação ao elemento maior (Pois é o elemento que ocupa o maior espaço)
+ 	- CENTER: Realiza o alinhamento dos itens ao centro da linha em comparação ao elemento maior (Pois é o elemento que ocupa o maior espaço)
 
-&nbsp;	- START: Realiza o alinhamento sempre no início da linha.
+ 	- START: Realiza o alinhamento sempre no início da linha.
 
-&nbsp;	- END: Realiza o alinhamento sempre ao final do elemento.
+ 	- END: Realiza o alinhamento sempre ao final do elemento.
 
 * JUSTIFY-ITEMS: Recebe os mesmos parâmetros descritos acima (start, center e end) mas o eixo de comparação é vertical.
 * place-items: Também recebe os mesmos parâmetros conforme descrito mas ele serve tanto para alinhar verticalmente quanto horizontalmente.
@@ -140,37 +140,37 @@ grid-template-columns: auto auto; -> Ao definir os atributos em 'auto' os elemen
 
 ###### **Definindo as linhas do grid (Grid Template Rows)**
 
-&nbsp;	- 'grid-template-rows: 100px auto' Define o tamanho das linhas.
+ 	- 'grid-template-rows: 100px auto' Define o tamanho das linhas.
 
-&nbsp;	- 'grid-auto-rows:' Linhas são adicionadas automaticamente com o valor de auto.
+ 	- 'grid-auto-rows:' Linhas são adicionadas automaticamente com o valor de auto.
 
-&nbsp;	- 'grid-row:' Define a linha do item, funciona da mesma forma que o grid-column.
+ 	- 'grid-row:' Define a linha do item, funciona da mesma forma que o grid-column.
 
 
 
 GRID-COLUMN: Define a quantidade de colunas que o elemento irá ocupar
 
-&nbsp;	EX.: grid-column: 1 / -1 (Ocupará o tamanho máximo)
+ 	EX.: grid-column: 1 / -1 (Ocupará o tamanho máximo)
 
 
 
 COMO IR ALINHANDO OS ITENS UM AO LADO DO OUTRO COM O GRID:
 
-&nbsp;	- Defina o grif-tamplate-columns : repeat(auto-fit, minmax(valor mínimo, valor maximo))
+ 	- Defina o grif-tamplate-columns : repeat(auto-fit, minmax(valor mínimo, valor maximo))
 
 
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
 #### **FLEXBOX**
 
-&nbsp;	- **display: flex** = Os filhos passam a ter um tamanho flexível e ficam um ao lado do outro.
+ 	- **display: flex** = Os filhos passam a ter um tamanho flexível e ficam um ao lado do outro.
 
-&nbsp;	- **flex-wrap:** wrap = Caso não caiba todos os elementos em uma mesma linha, quebre para a próxima.
+ 	- **flex-wrap:** wrap = Caso não caiba todos os elementos em uma mesma linha, quebre para a próxima.
 
 
 
@@ -178,17 +178,17 @@ COMO IR ALINHANDO OS ITENS UM AO LADO DO OUTRO COM O GRID:
 
 ###### **PROPIEDADE FLEX**
 
-&nbsp;	- flex-grow: 1 = Se esse elemento deve crescer para ocupar o espaço vazio. O 0 impede o crescimento, valores maiores que 0 funcionam como a unidade fr do css grid.
+ 	- flex-grow: 1 = Se esse elemento deve crescer para ocupar o espaço vazio. O 0 impede o crescimento, valores maiores que 0 funcionam como a unidade fr do css grid.
 
-&nbsp;	- flex-basis: 200px = Valor inicial antes de distribuir o espaço em branco.
+ 	- flex-basis: 200px = Valor inicial antes de distribuir o espaço em branco.
 
-&nbsp;	- flex-shrink: 0 = Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. 0 significa que ele não pode ser reduzido.
+ 	- flex-shrink: 0 = Caso exista um valor de base, o flex-shrink irá determinar se esse valor pode ser reduzido ou não. 0 significa que ele não pode ser reduzido.
 
-&nbsp;	- flex: 1 = Atalho para flex-grow: 1; flex-shrink: 1; e flex-basis: 0;
+ 	- flex: 1 = Atalho para flex-grow: 1; flex-shrink: 1; e flex-basis: 0;
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -200,7 +200,7 @@ A propriedade position possui valores que remove o elemento do fluxo padrão do 
 
 * **position: fixed** = Fixa o elemento na tela.
 
-&nbsp;	**top, right, left, bottom** = Define o posicionamento dos elementos que não estão no fluxo padrão.
+ 	**top, right, left, bottom** = Define o posicionamento dos elementos que não estão no fluxo padrão.
 
 
 
@@ -220,17 +220,17 @@ MAX-WIDTH = Define um tamanho máximo. (Em imagens pode ser 100%)
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
 #### **Landmarks - PONTOS DE REFERÊNCIA**
 
-Tags que marcam pontos de referência (landmarks) foram introduzidas no lançamento do HTML5. 
+Tags que marcam pontos de referência (landmarks) foram introduzidas no lançamento do HTML5.
 
 
 
-##### **MAIN =** 
+##### **MAIN =**
 
 A tag <main> marca o conteúdo principal da página.
 
@@ -256,7 +256,7 @@ Obs.: Evite o uso de diversas tags nav, use apenas para a navegação essencial.
 
 
 
-##### Atributo **aria-label** = 
+##### Atributo **aria-label** =
 
 Este atributo pode ser adicionado a tag <nav> para que facilite a usabilidade de leitores de tela.
 
@@ -264,13 +264,13 @@ Ex.: <nav aria-label="primária" ></nav>
 
 
 
-##### Atributo **aria-labelledby** = 
+##### Atributo **aria-labelledby** =
 
 Caso o título exista na tela, marque o mesmo com um id e use este atributo para criar uma relação entre eles.
 
 
 
-##### **ARTICLE =** 
+##### **ARTICLE =**
 
 A tag article representa uma região do site que é autoexplicativa (não precisa do restante do site para fazer sentido). Geralmente deve conter um título (h's).
 
@@ -290,7 +290,7 @@ Obs.: O h1 é impactado em termos visuais quando utilizado na section. O section
 
 
 
-#### **ASIDE =** 
+#### **ASIDE =**
 
 A tag aside é utilizada para marcar conteúdo complementar ao principal do site.
 
@@ -298,7 +298,7 @@ Ex.: Lista de posts mais visitados, informações extras como a descrição de u
 
 
 
-#### **HEADER =** 
+#### **HEADER =**
 
 A tag <header> marca o cabeçalho do site (banner), onde geralmente estão presentes a marca, navegação do site e as vezes uma informação introdutória.
 
@@ -310,7 +310,7 @@ Obs.: Apenas cria uma landmark se não estiver dentro de main, section, article 
 
 
 
-#### **FOOTER =** 
+#### **FOOTER =**
 
 A tag <footer> marca o rodapé do site, geralmente contém informação sobre os direitos autorias, quem escreveu e links para documentos relacionados.
 
@@ -320,11 +320,11 @@ Obs.: Apenas cria uma landmark se não estiver dentro de main, section, article 
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
-#### **LISTAS** 
+#### **LISTAS**
 
 
 
@@ -334,9 +334,9 @@ Obs.: Apenas cria uma landmark se não estiver dentro de main, section, article 
 
 **<DL>** - A tag <dl> marca uma lista de descrições (description list). A lista é criada com dois elementos <dt> e <dd>
 
-&nbsp;	**<DT>** - Marca o termo/frase a ser definido.
+ 	**<DT>** - Marca o termo/frase a ser definido.
 
-&nbsp;	**<DD>** - Marca a definição do termo acima.
+ 	**<DD>** - Marca a definição do termo acima.
 
 
 
@@ -346,7 +346,7 @@ Possui diferentes valores que definem o estilo dos marcadores da lista (disc, sq
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
 
@@ -382,7 +382,153 @@ strong é utilizada para marcar uma parte importante do conteúdo.
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 
+
+#### **UNIDADE DE MEDIDA**
+
+
+
+##### **REM**
+
+Unidade relativa ao tamanho da fonte do elemento raiz html. Na maioria dos browsers com configuração padrão 1rem = 16px.
+
+
+
+
+
+##### **EM (Não recomendada)**
+
+EM é uma unidade relativa ao tamanho da fonte do elemento pai.
+
+
+
+
+
+##### **VH e VW**
+
+VH representa o tamanho da altura da tela visível (viewport height) e VW a largura (viewport width). 100vw = 100% da tela.
+
+
+
+Obs.: Antes do vh só existia a porcentagem. A porcentagem é problemática para definir o height, pois: height: 100%; significa 100% da altura do pai. A altura do pai sempre é definida pelo tamanho do conteúdo, então basicamente 100% de height não muda em nada.
+
+
+
+
+
+##### **CALC**
+
+**calc()** é uma função de css que retorna um valor com base no cálculo efetuado entre os (). Podemos combinar unidades.
+
+**calc(100vw / 3) -** Representa 1/3 da tela.
+
+**calc(100% - 20px) -** Remove 20px de 100%.
+
+
+
+---
+
+#### **TIPOGRAFIA**
+
+**line-height** = Altura da linha (De 1.3 a 1.5)
+
+**text-indent** = Adiciona o espaçamento da primeira linha do paragrafo.
+
+**letter-spacing =** Adiciona espaçamento entre as letras
+
+
+
+---
+
+#### **BACKGROUND**
+
+O background pode receber outros valores além de cores sólidas, como imagens e gradientes. A diferença entre img e o background é que a img faz parte do conteúdo, o background apenas do estilo.
+
+
+
+##### **Gradiente**
+
+A função **linear-gradient** gera um gradiente linear na propriedade **background-image**.
+
+A função **radial-gradient** gera um gradiente circular na propriedade **background-image**.
+
+
+
+Direção: 90deg, 45deg, to left, to right
+
+Cores: #000 0%, blue 50%, #fff 100%. Cor e local de início.
+
+
+
+**background-repeat:** **no-repeat** - Caso deseje que a imagem não se repita
+
+**background-size: cover** - Alterar o tamanho da imagem que está sendo apresentada.
+
+background-position: Indica a partir de onde será cortado/expandido a imagem.
+
+
+
+---
+
+#### **PSEUDO CLASSES**
+
+###### **ESTADO**
+
+Diferentes estados que um elemento HTML pode ter.
+
+
+
+###### **:hover** - Mouse em cima
+
+###### **:focus** - Elemento em foco, usando a tecla (tab).
+
+###### **:active** - Quando clicamos no elemento.
+
+###### **:visited** - Para links que já foram visitados.
+
+
+
+**TRANSITION: 0.3** - Tempo de animação.
+
+
+
+---
+
+#### **SELETORES**
+
+
+
+###### **:FIRST-CHILD** - Seleciona o primeiro elemento
+
+###### **:LAST-CILD** - Selecione o último elemento
+
+###### **:NTH-CHILD(4)** - 4 (quatro elementos), even(pares), odd(ímpares), 3n(de 3 em 3)
+
+
+
+###### **:NOT**
+
+###### O **:not** nega a seleção de um elemento específico.
+
+
+
+---
+
+#### **PSEUDO ELEMENTS**
+
+
+
+
+
+###### **::BEFORE /  ::AFTER**
+
+Os pseudo elements :	:before e ::after criam elementos HTML com base no seletor.
+
+
+
+**CONTENT** - Definir um conteúdo para o elemento é essencial para ele existir, mesmo que o conteúdo esteja vazio.
+
+**USO** - São utilizados para decorarmos o conteúdo, com eles evitamos o uso de elementos desnecessários no HTML.
 

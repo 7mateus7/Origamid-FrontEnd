@@ -10,44 +10,57 @@
 </head>
 
 <body>
-  <img class="logo" src="./img/bikcraft.svg" alt="logo bikcraft">
-  <div class="menu">
-    <a href="/" class="item-menu">Sobre</a>
-    <a href="/" class="item-menu">Produtos</a>
-    <a href="/" class="item-menu">Lojas</a>
-    <a href="/" class="item-menu">Contato</a>
-  </div>
-  <div class="grid">
+  <header>
+    <img class="logo" src="./img/bikcraft.svg" alt="logo bikcraft" aria-label="Primária">
+    <nav>
+      <ul class="menu">
+        <li><a href="/" class="item-menu">Sobre</a></li>
+        <li><a href="/" class="item-menu">Produtos</a></li>
+        <li><a href="/" class="item-menu">Lojas</a></li>
+        <li><a href="/" class="item-menu">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid">
 
-    <div class="conteudo">
-      <span class="detalhe"></span> <!--Barra Vermelha-->
+    <section class="conteudo">
+
       <h2>Bicicletas Feitas a Mão</h2>
-      <p class="merchan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, eligendi. Consequuntur veritatis odio nihil reiciendis quaerat accusantium.</p>
+      <p class="merchan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, eligendi. Consequuntur
+        veritatis odio nihil reiciendis quaerat accusantium.</p>
       <a class="ver-mais" href="/">Ver Mais</a>
-    </div>
+    </section>
 
     <img class="imagem-bicicleta" src="./img/bicicleta-1200-800.jpg" alt="imagem-bicicleta">
 
-    <div class="vantagens">
+    <section class="vantagens">
       <h3>Vantagens Bikecraft</h3>
-    </div>
+    </section>
 
-    <div class="list-vantagens">
-      <i class="fa-solid fa-motorcycle"></i>
-      <span>Motor Elétrico</span>
-      <p>Permite você viajar distências inimagináveis com a sua bike</p>
-      <i class="fa-solid fa-gauge-simple-high"></i>
-      <span>40 KM/H</span>
-      <p>A mais rápida bicibleta elétrica disponível no mercado hoje.</p>
-      <i class="fa-solid fa-location-crosshairs"></i>
-      <span>Rastreador</span>
-      <p>Rastreador e Sistema anti-furto para garantir o seu sossego.</p>
-    </div>
+    <section class="list-vantagens">
+      <div class="item-vantagem">
+        <i class="fa-solid fa-motorcycle"></i>
+        <span>Motor Elétrico</span>
+        <p>Permite você viajar distências inimagináveis com a sua bike</p>
+      </div>
+      <div class="item-vantagem">
+        <i class="fa-solid fa-gauge-simple-high"></i>
+        <span>40 KM/H</span>
+        <p>A mais rápida bicibleta elétrica disponível no mercado hoje.</p>
+      </div>
+      <div class="item-vantagem">
+        <i class="fa-solid fa-location-crosshairs"></i>
+        <span>Rastreador</span>
+        <p>Rastreador e Sistema anti-furto para garantir o seu sossego.</p>
+      </div>
+    </section>
 
-  </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Bikecraft. Alguns Direitos Reservados</p>
+  </footer>
 </body>
-<div class="rodape">
-  <p>Bikecraft. Alguns Direitos Reservados</p>
-</div>
+
 
 </html>

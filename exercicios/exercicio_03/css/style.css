@@ -27,21 +27,27 @@ body {
 }
 
 .menu {
-  display: block;
-  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
 .item-menu {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  font-size: 17px;
+  font-size: 1rem;
   background-color: white;
   display: inline-block;
   padding: 15px;
   margin-right: 20px;
   margin-bottom: 15px;
   border-radius: 4px;
+  
+}
+
+.item-menu:hover{
+  border: #ee2211 solid 1px;
 }
 
 .imagem-bicicleta {
@@ -53,17 +59,31 @@ body {
 h2 {
   font-weight: bold;
   place-self: end;
-  padding: 5px 30px;
+  padding: 40px 30px;
   font-size: 40px;
+  position: relative;
+  margin: 20px 0px 0px;
+
+}
+
+h2::before{
+  display: block;
+  position: absolute;
+  content: "";
+  background-color: #af1405;
+  height: 5px;
+  width: 60px;
+  top:20px;
+  left: 469px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 .merchan {
   text-align: end;
-  padding: 0px 30px;
+  margin-top: 0px;
   padding: 0px 30px 0px 50px;
 }
 
@@ -81,14 +101,36 @@ p {
   display: block;
 }
 
+.ver-mais:hover{
+  background: #af1405;
+}
+
 .vantagens {
-  font-size: 64px;
+  font-size: 3.9rem;
   grid-row: 6/9;
   color: #c6c6c6;
   text-transform: uppercase;
   align-self: center;
   text-align: end;
   margin-right: 30px;
+  background-image: url(../img/onda.svg);
+}
+
+.item-vantagem{
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.item-vantagem:hover{
+  border-left: #af1405 solid 2px;
+}
+
+.item-vantagem:first-child{
+  background-color: #f7f7f7;
+}
+
+.item-vantagem:last-child{
+  background-color: #f7f7f7;
 }
 
 .list-vantagens {
@@ -96,6 +138,7 @@ p {
   grid-row: 6;
   padding: 50px;
 }
+
 
 .list-vantagens span {
   font-weight: bold;

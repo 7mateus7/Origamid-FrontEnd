@@ -30,6 +30,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: center;
+  padding: 5px 0px;
 }
 
 .item-menu {
@@ -41,9 +42,9 @@ body {
   display: inline-block;
   padding: 15px;
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 4px;
-  
+  border: 1px solid transparent;
 }
 
 .item-menu:hover{
@@ -125,11 +126,7 @@ p {
   border-left: #af1405 solid 2px;
 }
 
-.item-vantagem:first-child{
-  background-color: #f7f7f7;
-}
-
-.item-vantagem:last-child{
+.item-vantagem:nth-child(odd){ /*Seleciona somente os elementos ímpares*/
   background-color: #f7f7f7;
 }
 
